@@ -1,0 +1,317 @@
+@media(max-width: 767px) {
+    nav#navigation {
+        background-color: rgba(16, 16, 18, 0.9);
+    }
+}
+.btn {
+    white-space: normal;
+}
+
+#home {
+    padding-top: 56px;
+    background-color: #100f11;
+    background-image: url('/images/pages/home/background/header.jpg');
+    background-repeat: no-repeat;
+    min-height: 800px;
+    color: #ecf0f1;
+}
+
+    #home #form-1 {
+        position: absolute;
+        width: 100%;
+    }
+
+    @media (max-width: 767px) {
+        #home {
+            background-size: 1000px;
+            background-position: calc(50% - 35px) 150px;
+            min-height: 900px;
+        }
+        #home #form-1 {
+           width: calc(100% - 30px);
+           bottom: 2em;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #home {
+            background-size: 1800px;
+            background-position: calc(50% - 50px) -240px;
+        }
+        #slogan {
+            padding-top: 0px;
+        }
+        #home #form-1 {
+            bottom: 3em;
+        }
+    }
+
+    @media (min-width: 992px) {
+        #home {
+            background-size: 1800px;
+            background-position: calc(50% + 150px) -300px;
+        }
+        #slogan {
+            padding-top: 150px;
+        }
+        #home #form-1 {
+            bottom: 5em;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #home {
+            background-size: 2000px;
+            background-position: calc(50% + 200px) -400px;
+        }
+        #slogan {
+            padding-top: 150px;
+        }
+        #home #form-1 {
+            bottom: 5em;
+        }
+    }
+
+    #home .container {
+        position: relative;
+        height: 100%;
+    }
+
+
+        #slogan .lead {
+            font-size: 2em;
+        }
+
+#whathow {
+      background-color: #efefef;
+      padding: 70px 0;
+      }
+      #howItWorks {
+        position:relative;
+        height: auto;
+        width: 55em;
+      }
+      #howItWorks1 {
+        position:relative;
+        height:40em;
+        width:auto;
+      }
+      #messageBubble{
+        padding-right: 0.8em;
+      }
+      .missing {
+          height:90px;
+          width:auto;
+      }
+      .whatText {
+        font-size: 125%;
+      }
+      @media (max-width:991px) {
+        #howItWorks {
+          position:relative;
+          height: auto;
+          width: 40em;
+        }
+        }
+      @media (max-width:767px) {
+        #vR{
+          padding-left: 2em;
+        }
+        #GPS {
+          padding-left: 2em;
+        }
+        #howItWorks {
+          position:relative;
+          height: auto;
+          width: 25em;
+        }
+        }
+      @media (max-width:575px) {
+          #whatHow{
+            text-align: center;
+          }
+          #vR{
+            padding-left: 0em;
+          }
+          #GPS {
+            padding-left: 0em;
+          }
+          }
+    #howItWorks3 {
+          /*background-color: #efefef;*/
+          padding: 70px 0;
+            }
+
+
+#messaging {
+      background-color: #454545;
+      padding: 100px 0px 100px 85px;
+      color: white;
+      }
+      #messagingTitle {
+        margin-left: 22%;
+      }
+      #convoImage {
+        position: absolute;
+        height:600px;
+        width: 342px;
+        max-width: 100%;
+        right:0;
+        bottom: -10em;
+      }
+
+#features {
+      background-color: #efefef;
+      padding: 85px 0;
+      }
+      .featureText {
+        text-align: center;
+      }
+      .illustration {
+        height:64px;
+        width:auto;
+      }
+      #waterSymbol {
+        height:auto;
+        width: 70px;
+        margin-left: -1em;
+      }
+      #SOS {
+        height: 55px;
+      }
+
+#hardware {
+      background-color: #454545;
+      padding: 85px 0px;
+      color: white;
+      }
+      #sonnet {
+        height:auto;
+        width: 275px;
+      }
+
+
+/*#reminder {
+    background-image: url('/images/pages/home/background/productshot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    background-color: #efefef;
+    padding: 0px  0px 150px 0px ;
+    }*/
+
+    /*This is other configuration*/
+    #reminder{
+      background-color: #efefef;
+      padding: 100px  0px 120px 0px ;
+    }
+    #price {
+      line-height: 200%;
+      margin-top:30%;
+      margin-left:10%;
+    }
+    #comingSoon {
+      margin-left: 8%;
+    }
+
+    #kickStarter1 {
+      height:25px;
+      width:auto;
+    }
+    #kickStarter {
+      height:30px;
+      width: auto;
+    }
+
+.orange {
+    color: #e67e22;
+}
+
+.nav-item {
+  margin-left: 30px;
+  text-align: center;
+}
+
+    @media (max-width: 991px) {
+      #loginImage {
+        position:absolute;
+        height: 400px;
+        width: 225px;
+        max-width: 100%;
+        left:15%;
+        bottom: -12em;
+      }
+      #messaging {
+        background-color: #454545;
+        padding: 85px 0px 0px 0px;
+        color: white;
+        }
+      #messagingFeatures .container {
+          padding-bottom: 430px;
+      }
+      #convoImage {
+          position: relative;
+          height: 560px;
+          width: 320px;
+          left: 50%;
+          margin-left: -160px;
+          bottom:-1em;
+      }
+      #productShot {
+        position:relative;
+        height: auto;
+        width: 700px;
+      }
+      #price {
+        line-height: 125%;
+        margin-left: 55%;
+        margin-top:20%;
+        font-size: 350%;
+      }
+      #comingSoon {
+        margin-left:52%;
+      }
+          }
+
+    @media (max-width:767px) {
+      #form1 {
+        bottom:2em;
+      }
+      #loginImage {
+        position:absolute;
+        height: 400px;
+        width: 225px;
+        max-width: 100%;
+        left:0%;
+        bottom: -5em;
+        }
+      /*#reminder {
+        background-size: cover;
+        position:static;
+        padding: 0px  0px 50px 0px ;
+        background-position: calc(20% - 35px) ;
+            }*/
+      #price {
+        line-height: 125%;
+        margin-left: 65%;
+        margin-top:80%;
+        font-size: 300%;
+        }
+      #comingSoon {
+        margin-left:57%;
+        }
+          }
+    @media (max-width:575px)  {
+      #loginImage{
+        bottom: -6em;
+        }
+          }
+    @media (max-width:563px){
+      #loginImage {
+        bottom:-5em;
+          }
+            }
+
+footer {
+    background-color: #454545;
+}
